@@ -1,0 +1,48 @@
+
+
+body {
+  background-color: #95879c;
+  font-color: white;
+  font-family: verdana;
+  text-align: center;
+}
+
+.photoApp {
+  font-family: verdana;
+  width: 600px;
+  height: 100px;
+  display: inline-block;
+}
+
+.fText {
+  font-family: verdana;
+  width: 600px;
+  height: 100px;
+}
+
+.feline-wrapper, .radioSelect {
+  font-style: normal;
+  font-family: verdana;
+  margin-left: 7em;
+  text-align: left;
+}
+
+.checkboxes, .radio-btn {
+  font-feature-settings: inherit;
+  font-family: verdana;
+  margin-left: 15em;
+  text-align: left;
+}
+
+.friend, .consider {
+  margin-left: 15em;
+  text-align: left;
+}
+
+.submit-btn {
+  align-item: center;
+  margin-left: 22.5em;
+  font-family: verdana;
+  height: 200px;
+  width: 600px;
+}
