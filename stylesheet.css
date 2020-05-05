@@ -1,0 +1,93 @@
+
+
+
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+body {
+  background-color: black;
+  color: #ffffe4;
+  font-family: verdana;
+  text-align: center;
+}
+
+a {
+  font-size: 1.5em;
+  color: red;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: orange;
+}
+
+.photoApp {
+  font-family: verdana;
+  width: 600px;
+  height: 100px;
+  display: inline-block;
+}
+
+.fText {
+  font-family: verdana;
+  width: 600px;
+  height: 100px;
+}
+
+.feline-wrapper, .radioSelect {
+  display: inline-block;
+  font-style: normal;
+  font-family: verdana;
+  text-align: left;
+}
+
+.checkboxes, .radio-btn {
+  position: relative;
+  font-family: verdana;
+  text-align: left;
+}
+
+.friend, .consider {
+  position: relative;
+  font-family: verdana;
+  text-align: left;
+}
+
+label {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.submit-btn {
+  align-item: center;
+  font-family: verdana;
+  height: 200px;
+  width: 100%;
+}
+
+.bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 700px;
+    max-height: 2000px;
+    min-width: 600px;
+}
+
+.contact {
+  font-size: 1em;
+  overflow: hidden;
+  text-align: center;
+}
